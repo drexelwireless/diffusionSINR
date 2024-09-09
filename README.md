@@ -56,7 +56,7 @@ accelerate launch train_dreambooth_lora_sdxl_advanced.py \
   --validation_prompt="a TOK icon of an astronaut riding a horse, in the style of TOK" \
   --output_dir=$OUTPUT_DIR \
   --caption_column="prompt" \
-  --mixed_precision="no" \
+  --mixed_precision="bf16" \
   --resolution=1024 \
   --train_batch_size=3 \
   --repeats=1 \
